@@ -1,0 +1,40 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.example.membership",
+  "serialNumber": "123456",
+  "teamIdentifier": "ABCDE12345",
+  "backgroundColor": "rgb(255, 255, 255)",
+  "logoText": "Membership",
+  "organizationName": "Your Organization",
+  "description": "Membership Card",
+  "foregroundColor": "rgb(0, 0, 0)",
+  "barcode": {
+    "message": "123456789",
+    "format": "PKBarcodeFormatQR",
+    "messageEncoding": "iso-8859-1"
+  },
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "name",
+        "label": "Name",
+        "value": "John Doe"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "membershipDate",
+        "label": "Member Since",
+        "value": "2024-09-18"
+      }
+    ]
+  },
+  "images": {
+    "logo": "logo.png",         // Logoet vises øverst til venstre
+    "strip": "strip.png",       // Strip-banneret vises øverst i passet
+    "thumbnail": "thumbnail.png",  // Thumbnail vises ved siden af tekst
+    "icon": "icon.png",         // Ikonet vises i Wallet-appen som et ikon for passet
+    "backgroundImage": "background.png"  // Baggrundsbilledet vises bag hele passet
+  }
+}
+
